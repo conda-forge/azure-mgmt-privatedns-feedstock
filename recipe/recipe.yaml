@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-privatedns
-  version: 1.2.0
+  version: "2.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_privatedns-${{ version }}.tar.gz
-  sha256: 34231872f01b94f6195d8ee5428e17469252ed04ea0828d52325ebe7bf0a120b
+  sha256: e064d222115382493c76be1096e4d8300eb31a9ef45c198aa1919933cb90a124
 
 build:
   number: 0
